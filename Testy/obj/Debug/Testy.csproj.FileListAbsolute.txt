@@ -1,2 +1,14 @@
 K:\Szkoła\WPF\Testy\Testy\bin\Debug\Testy.exe.config
 K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\bin\Debug\Testy.exe.config
+K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\bin\Debug\Testy.exe
+K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\bin\Debug\Testy.pdb
+K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\obj\Debug\Testy.csprojResolveAssemblyReference.cache
+K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\obj\Debug\MainWindow.baml
+K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\obj\Debug\MainWindow.g.cs
+K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\obj\Debug\App.g.cs
+K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\obj\Debug\Testy_MarkupCompile.cache
+K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\obj\Debug\Testy.g.resources
+K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\obj\Debug\Testy.Properties.Resources.resources
+K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\obj\Debug\Testy.csproj.GenerateResource.Cache
+K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\obj\Debug\Testy.exe
+K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\obj\Debug\Testy.pdb
