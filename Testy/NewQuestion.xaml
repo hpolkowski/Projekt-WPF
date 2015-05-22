@@ -1,0 +1,27 @@
+﻿<Window x:Class="Testy.NewQuestion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Wprowadź nowe pytanie" Height="300" Width="300">
+    <StackPanel>
+        <TextBlock TextWrapping="Wrap" Text="Tu wpisz treść pytania." Padding="5" Height="120"/>
+        <GridSplitter HorizontalAlignment="Stretch" Height="1"/>
+        <DockPanel LastChildFill="True">
+            <Label Content="1."/>
+            <TextBox Height="23" Text="Podaj poprawną odpowiedź." HorizontalAlignment="Stretch" Margin=" 0,0,5,0"/>
+        </DockPanel>
+        <DockPanel LastChildFill="True">
+            <Label Content="2."/>
+            <TextBox Height="23" Text="Podaj błędną odpowiedź." HorizontalAlignment="Stretch" Margin=" 0,0,5,0"/>
+        </DockPanel>
+        <DockPanel LastChildFill="True">
+            <Label Content="3."/>
+            <TextBox Height="23" Text="Podaj błędną odpowiedź." HorizontalAlignment="Stretch" Margin=" 0,0,5,0"/>
+        </DockPanel>
+        <DockPanel LastChildFill="True">
+            <Label Content="4."/>
+            <TextBox Height="23" Text="Podaj błędną odpowiedź." HorizontalAlignment="Stretch" Margin=" 0,0,5,0"/>
+        </DockPanel>
+        <GridSplitter HorizontalAlignment="Stretch" Height="1"/>
+        <Button Content="Dodaj pytanie" Margin="10"/>
+    </StackPanel>
+</Window>
