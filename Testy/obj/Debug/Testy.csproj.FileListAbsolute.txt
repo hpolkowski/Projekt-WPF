@@ -1,0 +1,2 @@
+K:\Szkoła\WPF\Testy\Testy\bin\Debug\Testy.exe.config
+K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\bin\Debug\Testy.exe.config

@@ -1,0 +1,10 @@
+﻿<Window x:Class="Testy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Testy" Height="350" Width="525">
+    <Grid>
+        <Label Content="Najlepszy wynik: 0" Name="wynik" FontSize="28" Margin="134,10,134,252"/>
+        <Button Content="Rozwiąż test" FontSize="36" Margin="120,108,134,131"/>
+        <Button Content="Dodaj pytanie" FontSize="24" Margin="134,236,152,30"/>
+    </Grid>
+</Window>
