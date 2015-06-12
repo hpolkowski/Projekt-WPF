@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Plik testowy-->
+<Questions>
+  <Question ID="0">
+    <Text>Jakiego koloru jest Czerwony maluch?</Text>
+    <Answer1>Zielony</Answer1>
+    <Answer2>Niebieski</Answer2>
+    <Answer3>Czerwony</Answer3>
+    <Answer4>Rdzawy</Answer4>
+  </Question>
+  <Question ID="1">
+    <Text>Ile piw mieści się w kracie?</Text>
+    <Answer1>20</Answer1>
+    <Answer2>24</Answer2>
+    <Answer3>25</Answer3>
+    <Answer4>18</Answer4>
+  </Question>
+  <Question ID="2">
+    <Text>Czy to jest Miłość, czy to jest Pytanie?</Text>
+    <Answer1>Pytanie</Answer1>
+    <Answer2>Miłość</Answer2>
+    <Answer3>Żadne z powyższych</Answer3>
+    <Answer4>Sprzedam Opla</Answer4>
+  </Question>
+</Questions>
