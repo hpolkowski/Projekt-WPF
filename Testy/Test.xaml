@@ -3,23 +3,23 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Test" Height="300" Width="300">
     <StackPanel>
-        <TextBlock TextWrapping="Wrap" Text="Przykładowe pytanie zawierało się będzie w tym miejscu." Padding="5" Height="120"/>
+        <TextBlock Name="Text_TextBlock" TextWrapping="Wrap" Text="Przykładowe pytanie zawierało się będzie w tym miejscu." Padding="5" Height="120"/>
         <GridSplitter HorizontalAlignment="Stretch" Height="1"/>
         <StackPanel Orientation="Horizontal">
             <Label Content="A." FontWeight="Bold" Width="25"/>
-            <RadioButton Content="Odpowiedź" Margin="0,5"/>
+            <RadioButton Name="AnswerA" Content="Odpowiedź" GroupName="Answers" Margin="0,5"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal">
             <Label Content="B." FontWeight="Bold" Width="25"/>
-            <RadioButton Content="Odpowiedź" Margin="0,5"/>
+            <RadioButton Name="AnswerB" Content="Odpowiedź" GroupName="Answers" Margin="0,5"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal">
             <Label Content="C." FontWeight="Bold" Width="25"/>
-            <RadioButton Content="Odpowiedź" Margin="0,5"/>
+            <RadioButton Name="AnswerC" Content="Odpowiedź" GroupName="Answers" Margin="0,5"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal">
             <Label Content="D." FontWeight="Bold" Width="25"/>
-            <RadioButton Content="Odpowiedź" Margin="0,5"/>
+            <RadioButton Name="AnswerD" Content="Odpowiedź" GroupName="Answers" Margin="0,5"/>
         </StackPanel>
         <GridSplitter HorizontalAlignment="Stretch" Height="1"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
