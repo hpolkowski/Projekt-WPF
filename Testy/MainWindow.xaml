@@ -7,7 +7,7 @@
             <Label Content="Najlepszy wynik: " FontSize="28"/>
             <Label Content="0" Name="Label_wynik" FontSize="28"/>
         </StackPanel>
-        <Button Content="Rozwiąż test" FontSize="36" Width="500" Margin="5,40" HorizontalAlignment="Center"/>
-        <Button Content="Dodaj pytanie" FontSize="24" Width="400" HorizontalAlignment="Center"/>
+        <Button Content="Rozwiąż test" FontSize="36" Width="500" Margin="5,40" HorizontalAlignment="Center" Click="Button_Test_Click"/>
+        <Button Content="Dodaj pytanie" FontSize="24" Width="400" HorizontalAlignment="Center" Click="Button_New_Question_Click"/>
     </StackPanel>
 </Window>

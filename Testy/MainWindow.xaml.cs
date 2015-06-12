@@ -24,5 +24,17 @@ namespace Testy
         {
             InitializeComponent();
         }
+
+        private void Button_Test_Click(object sender, RoutedEventArgs e)
+        {
+            Test okno = new Test();
+            okno.ShowDialog();
+        }
+
+        private void Button_New_Question_Click(object sender, RoutedEventArgs e)
+        {
+            NewQuestion okno = new NewQuestion();
+            okno.ShowDialog();
+        }
     }
 }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\obj\Debug\
+C:\Users\jAANUSZEK0700\Documents\GitHub\Projekt-WPF\Testy\obj\Debug\
 Testy
 none
 false
 DEBUG;TRACE
-K:\Szkoła\WPF\Testy\Projekt-WPF\Testy\App.xaml
-11151548125
+C:\Users\jAANUSZEK0700\Documents\GitHub\Projekt-WPF\Testy\App.xaml
+41920801174
 
-5-2017746502
+9-2013095410
 12-114506869
-MainWindow.xaml;
+NewQuestion.xaml;MainWindow.xaml;Results.xaml;Test.xaml;
 
 False
 

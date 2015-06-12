@@ -72,6 +72,7 @@
     <Compile Include="NewQuestion.xaml.cs">
       <DependentUpon>NewQuestion.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Question.cs" />
     <Compile Include="Results.xaml.cs">
       <DependentUpon>Results.xaml</DependentUpon>
     </Compile>
