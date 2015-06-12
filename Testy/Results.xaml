@@ -1,0 +1,15 @@
+﻿<Window x:Class="Testy.Results"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Wynik" Height="150" Width="300">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <Label Content="Twój wynik to:" FontSize="22"/>
+            <Label Content="0" FontSize="22"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <Button Content="Rozwiąż kolejny test" Padding="3" Margin="5"/>
+            <Button Content="Zakończ" Padding="3" Margin="5"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
