@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Plik testowy-->
-<Questions>
+<Questions count="11">
   <Question ID="0">
     <Text>Jakiego koloru jest Czerwony maluch?</Text>
     <Answer1>Zielony</Answer1>
@@ -21,5 +21,61 @@
     <Answer2>Miłość</Answer2>
     <Answer3>Żadne z powyższych</Answer3>
     <Answer4>Sprzedam Opla</Answer4>
+  </Question>
+  <Question ID="3">
+    <Text>Kiedy robimy Sylwestra?</Text>
+    <Answer1>Może tym razem w grudniu.</Answer1>
+    <Answer2>Możemy już teraz.</Answer2>
+    <Answer3>Nie w tym miesiącu.</Answer3>
+    <Answer4>Chętnie się napiję.</Answer4>
+  </Question>
+  <Question ID="4">
+    <Text>Jaki jest najlepszy środek na łysienie?</Text>
+    <Answer1>Środek głowy</Answer1>
+    <Answer2>Shauma</Answer2>
+    <Answer3>Okład z młodych pierśi</Answer3>
+    <Answer4>Łysy, pytanie do Ciebie!</Answer4>
+  </Question>
+  <Question ID="5">
+    <Text>Jaki mięsień najbardziej pracuje podczas stosunku płciowego?</Text>
+    <Answer1>Mięsień odbytu - żeby nie zesrać się ze szczęścia.</Answer1>
+    <Answer2>Jasne, że biceps.</Answer2>
+    <Answer3>Miesień piwny</Answer3>
+    <Answer4>Mięsień źrenicy oka</Answer4>
+  </Question>
+  <Question ID="6">
+    <Text>Co to jest "nic"?</Text>
+    <Answer1>Pół litra na dwóch</Answer1>
+    <Answer2>Łysina teściowej</Answer2>
+    <Answer3>Maluch Śtefana</Answer3>
+    <Answer4>Zupa na obiad</Answer4>
+  </Question>
+  <Question ID="7">
+    <Text>Z czego sklada sie wegiel?</Text>
+    <Answer1>Z samochodu do piwnicy</Answer1>
+    <Answer2>Hemoglobina, mistyfikacja, woda, ziemia</Answer2>
+    <Answer3>Woda z ucha i piach</Answer3>
+    <Answer4>C2H5OH</Answer4>
+  </Question>
+  <Question ID="8">
+    <Text>Co to jest: biale, pstryk, czerwone?</Text>
+    <Answer1>Pudelek sąsiadki w sokowirówce</Answer1>
+    <Answer2>Żarówka</Answer2>
+    <Answer3>Jelito grube</Answer3>
+    <Answer4>Złamany palec</Answer4>
+  </Question>
+  <Question ID="9">
+    <Text>Ile kosztują jabłka po 5 zł?</Text>
+    <Answer1>5,50zł</Answer1>
+    <Answer2>12groszy</Answer2>
+    <Answer3>3,14zł</Answer3>
+    <Answer4>Sprzedam Opla</Answer4>
+  </Question>
+  <Question ID="10">
+    <Text>Co robi szklarz, gdy nie ma szkła?</Text>
+    <Answer1>Pije z gwinta</Answer1>
+    <Answer2>Idzie na bezrobocie</Answer2>
+    <Answer3>Śpi za maszyną</Answer3>
+    <Answer4>Idzie do baru z księdzem i rabinem</Answer4>
   </Question>
 </Questions>

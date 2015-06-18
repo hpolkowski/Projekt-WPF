@@ -28,8 +28,8 @@ namespace Testy
         private void Button_Dodaj_Click(object sender, RoutedEventArgs e)
         {
             List<Question> data = new List<Question>();
-
             XDocument xml = XDocument.Load("Questions.xml");
+
             foreach (XElement element in xml.Root.Elements("Question"))
             {
                 data.Add(new Question(
@@ -54,6 +54,7 @@ namespace Testy
                 new XDeclaration("1.0", "utf-8", "yes"),
                 new XComment("Plik testowy"),
                 new XElement("Questions",
+                    new XAttribute("count", data.Count),
                     from Q in data
                     select new XElement("Question",
                         new XAttribute("ID", Q.ID),
@@ -68,6 +69,13 @@ namespace Testy
 
             xml2.Save("Questions.xml");
             Close();
+        }
+
+        private void Button_Zakoncz_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow window = new MainWindow();
+            Close();
+            window.ShowDialog();
         }
     }
 }

@@ -1,11 +1,11 @@
 ﻿<Window x:Class="Testy.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Testy" Height="350" Width="550">
+        Title="Testy" Height="350" Width="550" WindowStartupLocation="CenterScreen">
     <StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="15">
             <Label Content="Najlepszy wynik: " FontSize="28"/>
-            <Label Content="0" Name="Label_wynik" FontSize="28"/>
+            <Label Content="0" Name="Label_TopScore" FontSize="28"/>
         </StackPanel>
         <Button Content="Rozwiąż test" FontSize="36" Width="500" Margin="5,40" HorizontalAlignment="Center" Click="Button_Test_Click"/>
         <Button Content="Dodaj pytanie" FontSize="24" Width="400" HorizontalAlignment="Center" Click="Button_New_Question_Click"/>

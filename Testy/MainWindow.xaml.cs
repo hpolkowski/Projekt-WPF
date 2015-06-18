@@ -20,6 +20,7 @@ namespace Testy
     /// </summary>
     public partial class MainWindow : Window
     {
+        public int topScore = 0;
         public MainWindow()
         {
             InitializeComponent();
@@ -27,14 +28,16 @@ namespace Testy
 
         private void Button_Test_Click(object sender, RoutedEventArgs e)
         {
-            Test okno = new Test();
-            okno.ShowDialog();
+            Test window = new Test(topScore);
+            Close();
+            window.ShowDialog();
         }
 
         private void Button_New_Question_Click(object sender, RoutedEventArgs e)
         {
-            NewQuestion okno = new NewQuestion();
-            okno.ShowDialog();
+            NewQuestion window = new NewQuestion();
+            Close();
+            window.ShowDialog();
         }
     }
 }
