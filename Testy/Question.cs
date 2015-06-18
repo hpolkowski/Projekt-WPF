@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Testy
 {
-    class Question
+    public class Question
     {
         public int ID { get; set; }
         public  String Text { get; set; }

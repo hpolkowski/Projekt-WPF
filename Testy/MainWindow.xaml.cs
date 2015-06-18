@@ -39,5 +39,10 @@ namespace Testy
             Close();
             window.ShowDialog();
         }
+
+        private void Button_Zakoncz_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

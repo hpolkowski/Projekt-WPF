@@ -4,10 +4,14 @@
         Title="Testy" Height="350" Width="550" WindowStartupLocation="CenterScreen">
     <StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="15">
-            <Label Content="Najlepszy wynik: " FontSize="28"/>
+            <Label Content="Najlepszy wynik: " FontSize="28" ToolTip="Najwyższy wyniki z całej sesji"/>
             <Label Content="0" Name="Label_TopScore" FontSize="28"/>
         </StackPanel>
-        <Button Content="Rozwiąż test" FontSize="36" Width="500" Margin="5,40" HorizontalAlignment="Center" Click="Button_Test_Click"/>
-        <Button Content="Dodaj pytanie" FontSize="24" Width="400" HorizontalAlignment="Center" Click="Button_New_Question_Click"/>
+        <Button Content="Rozwiąż test" FontSize="36" Width="500" Margin="5,40" HorizontalAlignment="Center" Click="Button_Test_Click" ToolTip="Tu możesz rozpocząć nowy test"/>
+        <Button Content="Dodaj pytanie" FontSize="24" Width="400" HorizontalAlignment="Center" Click="Button_New_Question_Click" ToolTip="Powieksz baze o nowe, ciekawe pytanie"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="30">
+            <Button Content="Zakończ" Width="80" ToolTip="Kończy działanie programu" Click="Button_Zakoncz_Click" />
+        </StackPanel>
     </StackPanel>
+    
 </Window>

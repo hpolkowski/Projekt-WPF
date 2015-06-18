@@ -23,8 +23,8 @@
         </DockPanel>
         <GridSplitter HorizontalAlignment="Stretch" Height="1"/>
         <DockPanel>
-            <Button Content="Dodaj pytanie" Margin="6" Padding="20,2,20,2" Click="Button_Dodaj_Click" HorizontalAlignment="Left"/>
-            <Button Content="Zakończ" Margin="6" Padding="2" Click="Button_Zakoncz_Click" HorizontalAlignment="Right" HorizontalContentAlignment="Center"/>
+            <Button Content="Dodaj pytanie" Margin="6" Padding="20,2,20,2" Click="Button_Dodaj_Click" HorizontalAlignment="Left" ToolTip="Dodanie pytania do bazy danych"/>
+            <Button Content="Zakończ" Margin="6" Padding="2" Click="Button_Zakoncz_Click" HorizontalAlignment="Right" HorizontalContentAlignment="Center" ToolTip="Anuluj i zakończ dodawanie pytania"/>
         </DockPanel>
     </StackPanel>
 </Window>

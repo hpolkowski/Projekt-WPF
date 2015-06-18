@@ -94,6 +94,7 @@ namespace Testy
         {
             saveAnswer();
             Results window = new Results(userPoints.Sum(), topScore);
+            window.testQuestions = testQuestions;
             Close();
             window.ShowDialog();
         }

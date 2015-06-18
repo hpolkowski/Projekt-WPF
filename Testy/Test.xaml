@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Test" Height="300" Width="300" WindowStartupLocation="CenterScreen">
     <StackPanel>
-        <TextBlock Name="Text_TextBlock" TextWrapping="Wrap" Text="Przykładowe pytanie zawierało się będzie w tym miejscu." Padding="5" Height="120"/>
+        <TextBlock Name="Text_TextBlock" TextWrapping="Wrap" Text="Przykładowe pytanie zawierało się będzie w tym miejscu." Padding="5" Height="120" ToolTip="Wybierz jedna prawidłową opowiedź"/>
         <GridSplitter HorizontalAlignment="Stretch" Height="1"/>
         <StackPanel Orientation="Horizontal">
             <Label Content="A." FontWeight="Bold" Width="25"/>
@@ -23,9 +23,9 @@
         </StackPanel>
         <GridSplitter HorizontalAlignment="Stretch" Height="1"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
-            <Button x:Name="Button_Poprzednie" Content="Poprzednie" Margin="5" Width="75" Click="Button_Poprzednie_Click"/>
-            <Button Content="Zakończ" Margin="5" Width="75" Click="Button_Zakoncz_Click"/>
-            <Button x:Name="Button_Nastepne" Content="Następne" Margin="5" Width="75" Click="Button_Nastepne_Click"/>
+            <Button x:Name="Button_Poprzednie" Content="Poprzednie" Margin="5" Width="75" Click="Button_Poprzednie_Click" ToolTip="poprzednie pytanie"/>
+            <Button Content="Zakończ" Margin="5" Width="75" Click="Button_Zakoncz_Click" ToolTip="Zakończ swój test"/>
+            <Button x:Name="Button_Nastepne" Content="Następne" Margin="5" Width="75" Click="Button_Nastepne_Click" ToolTip="Kolejne pytanie"/>
         </StackPanel>
     </StackPanel>
 </Window>
