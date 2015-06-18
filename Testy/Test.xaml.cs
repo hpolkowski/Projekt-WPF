@@ -51,7 +51,12 @@ namespace Testy
             Random rand = new Random();
             //wybrać 5 losowych elementów z listy data
             for (int i = 0; i < N; i++)
-                testQuestions.Add(data[rand.Next(0,data.Count)]);
+            {
+                int k = rand.Next(0,data.Count);
+                testQuestions.Add(data[k]);
+                data.RemoveAt(k);
+
+            }
             //koniec losowania
             showQuestion();
         }
